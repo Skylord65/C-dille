@@ -59,6 +59,26 @@ Tant que expression faire
 fin tant que
 ```
 
-## Installation
+## Compilation et Installation
 
-à définir
+Pour compiler `Cdille` à l'aide du `Makefile` :
+
+```bash
+make
+```
+
+Pour exécuter les tests :
+
+```bash
+make test
+```
+
+## Options de la ligne de commande
+
+```bash
+./Cdille fichier.cll [options]
+```
+
+- `-o <nom>` : Spécifie le nom de l'exécutable généré (par défaut : `programme`).
+- `-r`, `--run` : Compile puis exécute immédiatement le programme.
+- `-h`, `--help` : Affiche l'aide.

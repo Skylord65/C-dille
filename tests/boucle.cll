@@ -1,0 +1,7 @@
+Entier compteur
+compteur <- 1
+
+Tant que compteur <= 5 faire
+    Imprimer "Tour de boucle n°", compteur
+    compteur <- compteur + 1
+fin tant que

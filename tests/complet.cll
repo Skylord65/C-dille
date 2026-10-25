@@ -1,0 +1,19 @@
+// Programme de demonstration complete pour C-dille
+Entier somme <- 0
+Entier i <- 1
+Entier limite <- 10
+
+Imprimer "=== Debut du calcul ==="
+
+Tant que i <= limite faire
+    Si i % 2 = 0 alors
+        Imprimer i, " est pair"
+        somme <- somme + i
+    sinon
+        Imprimer i, " est impair"
+    fin si
+    i <- i + 1
+fin tant que
+
+Imprimer "Somme des nombres pairs de 1 a 10 = ", somme
+Imprimer "=== Fin du calcul ==="

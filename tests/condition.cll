@@ -1,0 +1,12 @@
+Entier x
+x <- 10
+
+Si x > 5 alors
+    Imprimer "x est strictement superieur a 5"
+sinon
+    Imprimer "x est inferieur ou egal a 5"
+fin si
+
+Si x = 10 alors
+    Imprimer "x vaut exactement 10"
+fin si

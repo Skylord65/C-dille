@@ -2,4 +2,6 @@ compiler
 executable
 bin/*
 cdille
+Cdille
 programme
+output.c
